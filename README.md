@@ -39,9 +39,9 @@ It includes both **exact (exhaustive)** and **heuristic (greedy)** approaches, a
     │       graph_generator.py  
     │       
     └───solve  
-            algorithm_tracker.py  
-            solve_exhaustive_partition.py  
-            solve_exhaustive_remove_edges.py  
-            solve_greedy.py  
-            solve_greedy_partitions.py  
-            visited_monitor.py  
+        ├───algorithm_tracker.py  
+        ├───solve_exhaustive_partition.py  
+        ├───solve_exhaustive_remove_edges.py  
+        ├───solve_greedy.py  
+        ├───solve_greedy_partitions.py  
+        └───visited_monitor.py  
