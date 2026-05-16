@@ -21,27 +21,15 @@ It includes both **exact (exhaustive)** and **heuristic (greedy)** approaches, a
 
 ## Project Structure
 
-├───study.pdf  
-├───data  
-│   ├───cut_visualizations       
-│   ├───graphs  
-│   ├───partition_visualizations  
-│   ├───plots  
-│   └───results_csv  
-└───src  
-    ├───data_analysis  
-    │       draw_graph_and_min_cut.py  
-    │       results_analysis.R  
-    │       time_analysis.R  
-    │       
-    ├───graph_generation  
-    │       create_graphs.py  
-    │       graph_generator.py  
-    │       
-    └───solve  
-        ├───algorithm_tracker.py  
-        ├───solve_exhaustive_partition.py  
-        ├───solve_exhaustive_remove_edges.py  
-        ├───solve_greedy.py  
-        ├───solve_greedy_partitions.py  
-        └───visited_monitor.py  
+study.pdf                # Theoretical report (8 pages)
+data/
+├── graphs/              # Generated graph instances
+├── cut_visualizations/  # Min-cut visualizations
+├── partition_visualizations/
+├── plots/               # Experimental plots
+└── results_csv/         # Experimental results
+
+src/
+├── graph_generation/    # Graph generators
+├── solve/               # Algorithm implementations
+└── data_analysis/       # Plotting and analysis scripts
