@@ -33,3 +33,11 @@ src/
 ├── graph_generation/    # Graph generators  
 ├── solve/               # Algorithm implementations  
 └── data_analysis/       # Plotting and analysis scripts
+
+
+## Tech Stack
+
+- Python (NetworkX) – algorithm implementation and graph processing  
+- R – experimental analysis and visualization  
+- GraphML – graph data format  
+- Matplotlib – performance plots and result visualization  
