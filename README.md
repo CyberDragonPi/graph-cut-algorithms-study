@@ -21,15 +21,15 @@ It includes both **exact (exhaustive)** and **heuristic (greedy)** approaches, a
 
 ## Project Structure
 
-study.pdf                # Theoretical report (8 pages)
-data/
-├── graphs/              # Generated graph instances
-├── cut_visualizations/  # Min-cut visualizations
-├── partition_visualizations/
-├── plots/               # Experimental plots
-└── results_csv/         # Experimental results
-
-src/
-├── graph_generation/    # Graph generators
-├── solve/               # Algorithm implementations
+study.pdf                # Theoretical report (8 pages)  
+data/  
+├── graphs/              # Generated graph instances  
+├── cut_visualizations/  # Min-cut visualizations  
+├── partition_visualizations/  
+├── plots/               # Experimental plots  
+└── results_csv/         # Experimental results  
+  
+src/  
+├── graph_generation/    # Graph generators  
+├── solve/               # Algorithm implementations  
 └── data_analysis/       # Plotting and analysis scripts
